@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(168, 183, 238);
+}
+
+/* NAVBAR */
+nav{
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 25px;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+nav li a:hover{
+    color: rgb(76, 76, 76);
+    background-color: rgb(211, 217, 241);
+    border-radius: 15px;
+}
+
+.logo{
+    float: left;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 7.5px;
+}
+
+.logo:hover{
+    color: black;
+    background-color: rgb(168, 183, 238);
+    border-radius: 0px;
+}
+
+.login{
+    margin-right: 40px;
+    padding: 12px 50px 12px 50px;
+    border-radius: 50px;
+    border: 1px rgb(71, 84, 255) solid;
+    background-color: rgb(71, 84, 255);
+    color: white;
+    transition: 0.5s;
+}
+
+.login:hover{
+    background-color: white;
+    color: rgb(71, 84, 255);
+    border: 1px rgb(71, 84, 255) solid;
+    border-radius: 50px;
+}
+
+/* Home Section */
+
+/* Text */
+
+.text-section{
+    color: black;
+    padding: 10px;
+    display: inline;
+    height: 700px;
+    width:45%;
+    float: left;
+    font-family: 'pathway extreme', sans-serif;
+    margin-left: 30px;
+}
+
+.main-title{
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    margin: 30px 0;
+}
+
+.bold-title{
+    font-weight: 700;
+}
+
+.main-desc{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0 60px 0;
+}
+
+/* Apply and demo buttons */
+
+.apply-section{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.apply-button{
+    text-decoration: none;
+    padding: 17px 50px 17px 50px;
+    border-radius: 50px;
+    border: 1px rgb(71, 84, 255) solid;
+    background-color: rgb(71, 84, 255);
+    color: white;
+    transition: 0.5s;
+}
+
+.apply-button:hover{
+    background-color: white;
+    color: rgb(71, 84, 255);
+    border: 1px rgb(71, 84, 255) solid;
+    border-radius: 50px;
+}
+
+.demo-btn{
+    text-decoration: none;
+    padding: 17px 50px 17px 50px;
+    border-radius: 50px;
+    border: 1px rgb(71, 84, 255) solid;
+    background-color: rgb(71, 84, 255);
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.demo-btn:hover{
+    background-color: white;
+    color: rgb(71, 84, 255);
+    border: 1px rgb(71, 84, 255) solid;
+    border-radius: 50px;
+}
+
+/* CV Section */
+
+.cv-section{
+    display: block;
+    align-items: center;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.cv-amount{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.cv-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+  
+.avatar-gallery{
+    position: relative;
+    top: 10px;
+    left: 0;
+}
+
+.image2 {
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* Image */
+
+.home-image{
+    padding:  10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width:45%;
+    float: right;
+}
